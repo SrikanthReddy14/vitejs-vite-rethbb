@@ -1,0 +1,11 @@
+export interface Product {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  description: string;
+  rating: number;
+  reviews: number;
+  prime: boolean;
+  category: string;
+}
